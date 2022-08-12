@@ -5,7 +5,10 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: "sf pro display" !important;
+}
+
+body{
+  font-family: "sf pro display";
 }
 
 .new-wishlist{
@@ -48,11 +51,21 @@
 
 .mx-auto{
  width: 650px !important;
+ position: relative;
+}
+
+.close-img{
+  position: absolute;
+  top: -16px;
+  right: -16px;
+  background-color: #fff;
+  border-radius: 50%;
+  cursor: pointer;
 }
 
 @media(max-width: 600px){
   .mx-auto{
-    width: 100% !important;
+    width: 90% !important;
     font-size: 7px;
   }
 
